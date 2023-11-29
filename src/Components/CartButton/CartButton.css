@@ -1,0 +1,16 @@
+.cart-btn {
+  align-items: center;
+  background-color: #3483fa;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.cart-btn:hover {
+  background-color: #2968c8;
+}

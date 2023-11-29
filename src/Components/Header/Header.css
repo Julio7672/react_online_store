@@ -1,0 +1,34 @@
+.header {
+  align-items: center;
+  background-color: #3483fa;
+  display: flex;
+  flex-flow: row wrap;
+  height: 80px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.nav-bar {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 12%;
+  height: 100%;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.cart-icon, .home-icon {
+  height: 30px;
+  width: 100px;
+}
+
+h1 {
+  color: white;
+  margin: 0;
+  width: fit-content;
+}

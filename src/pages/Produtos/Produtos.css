@@ -1,0 +1,50 @@
+h4 {
+  color: black;
+  font-weight: 700;
+  font-size: larger;
+  font-family: Proxima Nova,-apple-system,Roboto,Arial,sans-serif;
+  margin-top: 30px;
+}
+
+.all-details {
+  border: 1px solid grey;
+  border-radius: 1rem;
+  display: flex;
+  height: 700px;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 2%;
+  padding: 20px;
+  width: 90%;
+}
+
+.details-img {
+  margin: auto;
+  width: 15%;
+}
+
+.product-details {
+  border: 1px solid grey;
+  border-radius: 1rem;
+  display: flex;
+  flex-flow: column wrap;
+  font-size: 2rem;
+  justify-content: space-between;
+  padding: 15px;
+  width: 35%;
+}
+
+.detailed-cart-btn {
+  background-color: #3483fa;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 1rem;
+  font-size: 16px;
+  font-weight: 600;
+  height: 50px;
+}
+
+.detailed-cart-btn:hover {
+  background-color: #2968c8;
+}
