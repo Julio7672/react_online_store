@@ -11,7 +11,7 @@ function App() {
   return (
     <Routes>
       <Route element={ <Layout /> }>
-        <Route index element={ <Home /> } />
+        <Route path="/react_online_store" element={ <Home /> } />
         <Route path="/carrinho" element={ <Cart /> } />
         <Route path="/produtos/:id" element={ <Produtos /> } />
         <Route path="/checkout" element={ <Checkout /> } />
