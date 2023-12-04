@@ -8,7 +8,7 @@ function Header() {
     <header className="header">
       <h1>Online Store</h1>
       <nav className="nav-bar">
-        <Link className="nav-link" to="/react_online_store">
+        <Link className="nav-link" to="/react_online_store"  data-testid="home-cart-button">
           <AiOutlineHome className="home-icon" />
         </Link>
         <Link className="nav-link" to="/carrinho" data-testid="shopping-cart-button">
